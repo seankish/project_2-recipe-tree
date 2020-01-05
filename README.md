@@ -1,38 +1,34 @@
-# Project Starter
+# Recipe Tree
 
-In this activity we will add the provided boilerplate to group project repos.
+A Recipe Sharing Platform
 
-## Instructions
+## Developed by Sean Kish, Rodrigo Villarreal, George Campa, and Diego Barillas-Longoria
 
-* Only one member of each group should complete this activity while the others watch.
+# [LIVE DEMO](https://recipe-tree-rdsg.herokuapp.com/)
 
-* Copy the entire [Unsolved](Unsolved) folder to another location on your computers &mdash; wherever you would like your local copy of the group project to be.
+## Overview
+Users can visit Recipe Tree to find recipes the community has uploaded. Users can also upload their own recipes for others to see. Recipe details may include the cuisine type, estimated cost to create the dish, ingredients, instructions, and notes from the author.
 
-* Rename the copied "Unsolved" folder to the name of your project.
+## Design
+The UI for the recipe sharing platform is simple. Each recipe is represented by the name of the recipe and an image of the dish. Click on the dish to see the details.
 
-* Open the copied project folder's `package.json` file and change its `name` property to the name of your project.
+To add a recipe, click "Add Recipe" at the top of the page. A form will appear. Fill out the appropriate fields and click "Upload files" to add an image of the dish. After the recipe is submitted, it can be seen by other users.
 
-* CD to the root of the copied project folder with your terminal and run the following commands:
+The platform is currently formatted for desktop browser or tablet.
 
-  ```
-  git init
-  git add .
-  git commit -m "Initial commit"
-  ```
+## Languages and Libraries Used
 
-* Then copy the GitHub repo's remote SSH URL (the same URL you'd use to clone the repo).
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+* [BootStrap](https://getbootstrap.com/)
+* [Sequalize](https://www.npmjs.com/package/sequelize)
+* [Heroku](https://id.heroku.com/login)
 
-* Run the following commands in your terminal, replacing <remote-url> with your GitHub repo's remote SSH URL.
-
-  ```
-  git remote add origin <remote-url>
-  git push origin master
-  ```
-
-* If completed successfully you should see all of the files uploaded to GitHub.
-
-* All other group members should now clone the repo.
-
-* Discuss as a group:
-
-  * How would you now add changes to this project?
+## Future Development
+* User login
+* Customizable user profile
+* Profile picture
+* Access to user profiles
+* Follow users
+* Recipe ratings
+* Categorized recipes
+* Pagination
