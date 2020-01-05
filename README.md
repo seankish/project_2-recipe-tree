@@ -2,7 +2,7 @@
 
 A Recipe Sharing Platform
 
-## Developed by Sean Kish, Rodrigo Villarreal, George Campa, and Diego Barillas-Longoria
+Developed by Sean Kish, Rodrigo Villarreal, George Campa, and Diego Barillas-Longoria
 
 # [LIVE DEMO](https://recipe-tree-rdsg.herokuapp.com/)
 
