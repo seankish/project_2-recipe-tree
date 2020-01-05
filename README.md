@@ -4,7 +4,7 @@ A Recipe Sharing Platform
 
 Developed by Sean Kish, Rodrigo Villarreal, George Campa, and Diego Barillas-Longoria
 
-# [LIVE DEMO](https://recipe-tree-rdsg.herokuapp.com/)
+## [LIVE DEMO](https://recipe-tree-rdsg.herokuapp.com/)
 
 ## Overview
 Users can visit Recipe Tree to find recipes the community has uploaded. Users can also upload their own recipes for others to see. Recipe details may include the cuisine type, estimated cost to create the dish, ingredients, instructions, and notes from the author.
